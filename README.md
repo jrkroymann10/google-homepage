@@ -1,0 +1,1 @@
+This will be my first time attempting to build something in HTML. Re-creating the Google.com homepage doesn't seem too difficult, but I'm about to find out.
