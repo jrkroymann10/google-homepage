@@ -38,19 +38,7 @@ a {
     padding: 6px 12px;
     margin: 8px 12px 10px 8px;
     border-radius: 1px;
-}
-
-.search {
-    margin-left: 670px;
-    height: 30px;
-    width: 500px;
-    background-color: transparent;
-    border-radius: 25px;
-    padding-inline-start: 52px;
-    font-family: 'Roboto', arial, sans-serif;
-    font-size: 16px;
-    color: rgba(0,0,0,.87); 
-}   
+}  
 
 div {
     display: block;
@@ -65,7 +53,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 145px;
+    padding-top: 165px;
     height: 92px;
     width: 272px;
 }
@@ -89,7 +77,7 @@ input {
     text-shadow: none;
     cursor: text;
     border: 1px solid #e4e4e4;
-    
+    margin-bottom: 15px;
 }  
 
 input:hover {
@@ -121,4 +109,26 @@ input:hover {
 
 textarea:focus, input:focus {
     outline: none;
+}
+
+#search-buttons {
+    height: 36px;
+    width: 135px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 0 16px;
+    display: inline-block;
+    margin: 11px 4px;
+    line-height: 1em;
+}
+
+.buttons {
+    width: 582px;
+    height: 70px;
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
