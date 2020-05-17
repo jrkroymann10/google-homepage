@@ -1,11 +1,13 @@
 ul {
     list-style: none;
     margin: 0;
-    padding: 0 0 20px;
+    padding: 1px 0px 20px;
+    margin: 0 5px;
 }
 
 .left {
     float: left;
+    
 }
 
 .right{
@@ -19,7 +21,6 @@ a {
     opacity: 0.75;
     text-decoration: none;
     font-family: arial,sans-serif;
-    font-size: 13px;
 }
 
 .logo {
@@ -88,23 +89,25 @@ input {
     cursor: text;
 }  
 
-#footer {
-    display: block;
-    margin-bottom: 0px;
-
-}
 
 #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 97.5vh;
 }
 
-#content-wrap {
-    padding-bottom: 2.5rem;
-}
 
 #footer {
-    position: absolute;
-    bottom: 0;
+    display: block;
+    position: fixed;
     width: 100%;
+    background: #f2f2f2;
+    bottom: 0;
+    font-size: 14px;
+    height: 42px;
+    margin: 0 10px 0 -7px;
+    padding: 0 10px 0 10px;
+}
+
+#header {
+    font-size: 13px;
 }
