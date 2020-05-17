@@ -37,6 +37,7 @@ a {
     font-weight: bold;
     padding: 6px 12px;
     margin: 8px 12px 10px 8px;
+    border-radius: 1px;
 }
 
 .search {
@@ -64,7 +65,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 135px;
+    padding-top: 145px;
     height: 92px;
     width: 272px;
 }
@@ -80,14 +81,20 @@ input {
     margin-right: auto;
     margin-top: 30px;
     border-radius: 25px;
-    width: 478px;
-    height: 44px;
-    padding-inline-start: 52px;
+    width: 450px;
+    height: 40px;
+    padding-inline-start: 2em;
     font-size: 16px;
     font-family: sans-serif;
     text-shadow: none;
     cursor: text;
+    border: 1px solid #e4e4e4;
+    
 }  
+
+input:hover {
+    box-shadow: 0 0 10px #e4e4e4;
+}
 
 
 #page-container {
@@ -110,4 +117,8 @@ input {
 
 #header {
     font-size: 13px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
 }
