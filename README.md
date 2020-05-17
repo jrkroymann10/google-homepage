@@ -1,1 +1,3 @@
 This will be my first time attempting to build something in HTML. Re-creating the Google.com homepage doesn't seem too difficult, but I'm about to find out.
+
+While it's nothing special, I think that I learned a lot through re-creating the Google.com homepage. Specifically, I learned a lot about CSS and the many different ways it can manipulate HTML elements. I did not do as much as I would've liked with this project, but felt that my time would be better spent moving on to new topics, instead of focusing on such tiny details. All in all, this was a challenging, but rewarding first HTML project.
